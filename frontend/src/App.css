@@ -1,0 +1,23 @@
+.table th, .table td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table thead th {
+  background-color: #343a40;
+  color: white;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #007bff; /* Bootstrap primary blue */
+  color: white;
+}
+
+input.form-control {
+  max-width: 300px;
+  margin: auto;
+}
